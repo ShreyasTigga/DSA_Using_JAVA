@@ -55,7 +55,7 @@ public class BinaryTreeTraversal {
         }
     }
 
-        public static void breadthZigZagOrder(BinaryTree root) {
+        public void breadthZigZagOrder(BinaryTree root) {
         if (root == null) return;
 
         Queue<BinaryTree> queue = new ArrayDeque<>();
